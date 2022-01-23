@@ -45,7 +45,7 @@ public abstract class AbstractCoffeeMachine {
 
     public abstract boolean makeAmericano();
 
-    protected boolean makeCoffee(int coffee, int water) {
+    protected boolean  makeCoffee(int coffee, int water) {
         if (!isOn) {
             System.err.println("Coffee machine is off");
             return false;
